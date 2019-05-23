@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AudioSpectrumViewController" customModule="SwiftTestDemo" customModuleProvider="target">
+            <connections>
+                <outlet property="spectrumView" destination="DZb-cW-jb3" id="2ye-06-8YM"/>
+                <outlet property="trackTableView" destination="Z09-7Q-sIy" id="KqN-4u-Gb3"/>
+                <outlet property="view" destination="Mrc-iT-EZ6" id="9ih-Fy-Ygj"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Mrc-iT-EZ6">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DZb-cW-jb3" customClass="SpectrumView" customModule="AudioSpectrum02" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="44" width="414" height="150"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="150" id="zNj-Og-ZAP"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="44" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Z09-7Q-sIy">
+                    <rect key="frame" x="0.0" y="194" width="414" height="668"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Z09-7Q-sIy" firstAttribute="bottom" secondItem="oNw-Sg-v17" secondAttribute="bottom" id="0Wh-8l-l09"/>
+                <constraint firstItem="DZb-cW-jb3" firstAttribute="leading" secondItem="Mrc-iT-EZ6" secondAttribute="leading" id="C7g-1S-wB2"/>
+                <constraint firstItem="Z09-7Q-sIy" firstAttribute="trailing" secondItem="DZb-cW-jb3" secondAttribute="trailing" id="I0l-j1-wPj"/>
+                <constraint firstAttribute="trailing" secondItem="DZb-cW-jb3" secondAttribute="trailing" id="Qe5-S9-K1S"/>
+                <constraint firstItem="Z09-7Q-sIy" firstAttribute="top" secondItem="DZb-cW-jb3" secondAttribute="bottom" id="U1s-H0-qdA"/>
+                <constraint firstItem="Z09-7Q-sIy" firstAttribute="leading" secondItem="DZb-cW-jb3" secondAttribute="leading" id="WwZ-tT-M7v"/>
+                <constraint firstItem="DZb-cW-jb3" firstAttribute="top" secondItem="oNw-Sg-v17" secondAttribute="top" id="v6c-PE-aNH"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="oNw-Sg-v17"/>
+        </view>
+    </objects>
+</document>
