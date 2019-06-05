@@ -49,10 +49,9 @@ class AudioSpectrumPlayer {
     }
 
     func play(withFileName fileName: String) {
-        guard let path = Bundle.main.path(forAuxiliaryExecutable: "Audio")
-            
-        guard let audioFileURL = Bundle.main.url(forResource: fileName, withExtension: nil),
-         let audioFile = try? AVAudioFile(forReading: audioFileURL) else { return }
+
+        guard let audioFileURL = Bundle.main.url(forResource: fileName, withExtension: nil, subdirectory: "Audio"),
+        let audioFile = try?AVAudioFile.init(forReading: audioFileURL) else {return}
         player.stop()
         player.scheduleFile(audioFile, at: nil, completionHandler: nil)
         player.play()
