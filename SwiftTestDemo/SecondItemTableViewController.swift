@@ -9,7 +9,7 @@
 import UIKit
 
 class SecondItemTableViewController: UITableViewController {
-    var titleS = ["灭霸动画","音乐频谱"]
+    var titleS = ["灭霸动画","音乐频谱","文件管理"]
     
     override func viewDidLoad() {
         super.viewDidLoad()

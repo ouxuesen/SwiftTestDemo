@@ -9,7 +9,7 @@
 import UIKit
 
 class FirstItemViewController: UITableViewController {
-    var titleS = ["灭霸动画","音乐频谱"]
+    var titleS = ["灭霸动画","音乐频谱","文件管理"]
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.tableFooterView = UIView.init()
@@ -43,12 +43,16 @@ class FirstItemViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if titleS[indexPath.row] == "灭霸动画"{
             let viewcontroller = ThanosSnapViewController()
-                viewcontroller.hidesBottomBarWhenPushed = true;
+                viewcontroller.hidesBottomBarWhenPushed = true
             self.navigationController?.pushViewController(viewcontroller, animated: true)
         }else if titleS[indexPath.row] == "音乐频谱"{
             let viewcontroller = AudioSpectrumViewController()
-            viewcontroller.hidesBottomBarWhenPushed = true;
+            viewcontroller.hidesBottomBarWhenPushed = true
             self.navigationController?.pushViewController(viewcontroller, animated: true)
+        }else if titleS[indexPath.row] == "文件管理"{
+         let viewCOntroller = AudioPlayTableViewController()
+            viewCOntroller.hidesBottomBarWhenPushed = true
+            self.navigationController?.pushViewController(viewCOntroller, animated: true)
         }
         
     
