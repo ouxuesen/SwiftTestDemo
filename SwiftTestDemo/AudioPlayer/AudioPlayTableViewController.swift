@@ -19,6 +19,8 @@ class FileManagerModel: NSObject {
 }
 class AudioPlayTableViewController: UITableViewController {
     var relativePaths:String?
+    var currentIndex:Int!
+ 
     var souceArray = [FileManagerModel]()
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,9 +37,6 @@ class AudioPlayTableViewController: UITableViewController {
             managerModel.pathStr = currentPath
             managerModel.name = currentName
             let filetype =  fileAttributes?[FileAttributeKey.init(rawValue: "NSFileType")]
-            
-            //            let filetype:Any
-            //             filetype =  fileAttributes()
             if filetype as! String == "NSFileTypeDirectory"{
                managerModel.filetype = .FileType_folder
             }else{
@@ -49,12 +48,6 @@ class AudioPlayTableViewController: UITableViewController {
             }
             souceArray.append(managerModel)
         }
-        
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-        
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
     
     // MARK: - Table view data source
@@ -89,7 +82,7 @@ class AudioPlayTableViewController: UITableViewController {
             audioViewCont.relativePaths = managerModel.pathStr
             self.navigationController?.pushViewController(audioViewCont, animated: true)
         }else if managerModel.filetype == .FileType_mp3{
-            
+          PlayerMangerDefault.shared.play(index: indexPath.row, playerS: souceArray)
         }
 
     }

@@ -16,7 +16,7 @@ class AudioSpectrumPlayer {
     weak var delegate: AudioSpectrumPlayerDelegate?
     private let engine = AVAudioEngine()
     private let player = AVAudioPlayerNode()
-    
+     lazy var plaEND = {}
     public var bufferSize: Int? {
         didSet {
             if let bufferSize = self.bufferSize {
@@ -30,6 +30,7 @@ class AudioSpectrumPlayer {
                     if strongSelf.delegate != nil {
                         strongSelf.delegate!.player(strongSelf, didGenerateSpectrum: spectra)
                     }
+                   
                 })
             }
         }
@@ -56,8 +57,20 @@ class AudioSpectrumPlayer {
         player.scheduleFile(audioFile, at: nil, completionHandler: nil)
         player.play()
     }
-    
+    func playAbsolutePath(absolutePath: String) {
+        
+        let audioFileURL = URL.init(fileURLWithPath: absolutePath)
+        print(audioFileURL)
+        guard let audioFile = try?AVAudioFile.init(forReading: audioFileURL) else { return  }
+        player.stop()
+        player.scheduleFile(audioFile, at: nil, completionHandler: nil)
+        player.play()
+    }
     func stop() {
         player.stop()
     }
+    func pause() {
+         player.pause()
+    }
+  
 }

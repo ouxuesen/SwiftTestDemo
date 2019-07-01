@@ -10,6 +10,7 @@
 		5EABC15BD8603A6D8CA7072D /* Pods_SwiftTestDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C41E07CA05FA4439B5930E3D /* Pods_SwiftTestDemoUITests.framework */; };
 		644636DA7FD60D484867904A /* Pods_SwiftTestDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 310E799BA2AA906C15041E0A /* Pods_SwiftTestDemo.framework */; };
 		804F3DAFBFB96E0A028F1641 /* Pods_SwiftTestDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87A7CF08997159C0ACEB4B60 /* Pods_SwiftTestDemoTests.framework */; };
+		D711397222A916D100C8640E /* PlayerMangerDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = D711397122A916D100C8640E /* PlayerMangerDefault.swift */; };
 		D73AA57122A11D6C007974A2 /* AudioPlayTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73AA56F22A11D6C007974A2 /* AudioPlayTableViewController.swift */; };
 		D73AA57222A11D6C007974A2 /* AudioPlayTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D73AA57022A11D6C007974A2 /* AudioPlayTableViewController.xib */; };
 		D748D958229D2E17003C2885 /* RandowObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D748D957229D2E17003C2885 /* RandowObject.swift */; };
@@ -71,6 +72,7 @@
 		8EA3E71FDF9E57789A4AE4A9 /* Pods-SwiftTestDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTestDemoTests.release.xcconfig"; path = "Target Support Files/Pods-SwiftTestDemoTests/Pods-SwiftTestDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		94A3A5797B231B34C40208D7 /* Pods-SwiftTestDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTestDemo.debug.xcconfig"; path = "Target Support Files/Pods-SwiftTestDemo/Pods-SwiftTestDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		C41E07CA05FA4439B5930E3D /* Pods_SwiftTestDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftTestDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D711397122A916D100C8640E /* PlayerMangerDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerMangerDefault.swift; sourceTree = "<group>"; };
 		D73AA56F22A11D6C007974A2 /* AudioPlayTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayTableViewController.swift; sourceTree = "<group>"; };
 		D73AA57022A11D6C007974A2 /* AudioPlayTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AudioPlayTableViewController.xib; sourceTree = "<group>"; };
 		D748D957229D2E17003C2885 /* RandowObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandowObject.swift; sourceTree = "<group>"; };
@@ -167,6 +169,7 @@
 			children = (
 				D73AA56F22A11D6C007974A2 /* AudioPlayTableViewController.swift */,
 				D73AA57022A11D6C007974A2 /* AudioPlayTableViewController.xib */,
+				D711397122A916D100C8640E /* PlayerMangerDefault.swift */,
 			);
 			path = AudioPlayer;
 			sourceTree = "<group>";
@@ -343,6 +346,11 @@
 				TargetAttributes = {
 					D74BFCFA22964391001CB749 = {
 						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					D74BFD0E22964392001CB749 = {
 						CreatedOnToolsVersion = 10.2.1;
@@ -487,6 +495,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D711397222A916D100C8640E /* PlayerMangerDefault.swift in Sources */,
 				D74BFD692296524E001CB749 /* RealtimeAnalyzer.swift in Sources */,
 				D74BFD4C22964D90001CB749 /* ThanosGauntlet.swift in Sources */,
 				D74BFD4B22964D90001CB749 /* AnimatableSpriteLayer.swift in Sources */,

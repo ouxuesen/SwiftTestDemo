@@ -75,6 +75,10 @@ extension AudioSpectrumViewController: TrackCellDelegate {
 
 // MARK: SpectrumPlayerDelegate
 extension AudioSpectrumViewController: AudioSpectrumPlayerDelegate {
+    func playerEnd() {
+        
+    }
+    
     func player(_ player: AudioSpectrumPlayer, didGenerateSpectrum spectra: [[Float]]) {
         DispatchQueue.main.async {
             self.spectrumView.spectra = spectra
