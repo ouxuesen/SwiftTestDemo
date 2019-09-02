@@ -7,9 +7,10 @@
 //
 
 import UIKit
+import Photos
 
 class FirstItemViewController: UITableViewController {
-    var titleS = ["灭霸动画","音乐频谱","文件管理"]
+    var titleS = ["灭霸动画","音乐频谱","文件管理","相册管理"]
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.tableFooterView = UIView.init()
@@ -53,6 +54,14 @@ class FirstItemViewController: UITableViewController {
          let viewCOntroller = AudioPlayTableViewController()
             viewCOntroller.hidesBottomBarWhenPushed = true
             self.navigationController?.pushViewController(viewCOntroller, animated: true)
+        }else if titleS[indexPath.row] == "相册管理"{
+            let ruter = OZoneSouceRuter()
+        
+            ruter.showSeleAlbum(navigationController!) { (array) in
+                for ozoitem:OzoneItem in array{
+                    print(ozoitem.asset!)
+                }
+            }
         }
         
     

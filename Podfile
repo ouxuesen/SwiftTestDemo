@@ -4,12 +4,13 @@
 target 'SwiftTestDemo' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
-
+#    pod 'SnapKit'
   # Pods for SwiftTestDemo
 
   target 'SwiftTestDemoTests' do
     inherit! :search_paths
     # Pods for testing
+    
   end
 
   target 'SwiftTestDemoUITests' do
