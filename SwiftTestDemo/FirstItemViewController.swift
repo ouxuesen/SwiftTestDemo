@@ -10,7 +10,7 @@ import UIKit
 import Photos
 
 class FirstItemViewController: UITableViewController {
-    var titleS = ["灭霸动画","音乐频谱","文件管理","相册管理"]
+    var titleS = ["灭霸动画","音乐频谱","文件管理","相册管理","网络转模型"]
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.tableFooterView = UIView.init()
@@ -62,6 +62,9 @@ class FirstItemViewController: UITableViewController {
                     print(ozoitem.asset!)
                 }
             }
+        }else if titleS[indexPath.row] == "网络转模型"{
+            
+            
         }
         
     

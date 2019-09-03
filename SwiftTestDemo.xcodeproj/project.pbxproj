@@ -12,6 +12,10 @@
 		9C09961006286F0E33868F1E /* Pods_SwiftTestDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C48F05B61B40D6CEF33E35BE /* Pods_SwiftTestDemoTests.framework */; };
 		D7018C242313DFEF0042D542 /* OZOneAbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7018C232313DFEF0042D542 /* OZOneAbumViewController.swift */; };
 		D7018C262313E0B70042D542 /* OzoneImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7018C252313E0B70042D542 /* OzoneImageCollectionViewCell.swift */; };
+		D70E7801231DFF9100230DEF /* OZoneNetworkConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70E7800231DFF9100230DEF /* OZoneNetworkConfig.swift */; };
+		D70E7803231E00BC00230DEF /* OzoneTestAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70E7802231E00BC00230DEF /* OzoneTestAddress.swift */; };
+		D70E7805231E08C300230DEF /* OzoneConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70E7804231E08C300230DEF /* OzoneConversion.swift */; };
+		D70E7807231E08E100230DEF /* ListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70E7806231E08E100230DEF /* ListModel.swift */; };
 		D70F1335230FEC0900C4F3BF /* OZoneSouceRuter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70F1334230FEC0900C4F3BF /* OZoneSouceRuter.swift */; };
 		D70F133F230FED3F00C4F3BF /* image_picker_send_light@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D70F1339230FED3F00C4F3BF /* image_picker_send_light@2x.png */; };
 		D70F1340230FED3F00C4F3BF /* image_picker_ensure@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D70F133A230FED3F00C4F3BF /* image_picker_ensure@2x.png */; };
@@ -22,6 +26,7 @@
 		D70F1347230FF61900C4F3BF /* AlbumDirectoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70F1345230FF61900C4F3BF /* AlbumDirectoryViewController.swift */; };
 		D70F1348230FF61900C4F3BF /* AlbumDirectoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D70F1346230FF61900C4F3BF /* AlbumDirectoryViewController.xib */; };
 		D711397222A916D100C8640E /* PlayerMangerDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = D711397122A916D100C8640E /* PlayerMangerDefault.swift */; };
+		D7167524231D2C1C00692347 /* NetWorkModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7167523231D2C1C00692347 /* NetWorkModelViewController.swift */; };
 		D73AA57122A11D6C007974A2 /* AudioPlayTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73AA56F22A11D6C007974A2 /* AudioPlayTableViewController.swift */; };
 		D73AA57222A11D6C007974A2 /* AudioPlayTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D73AA57022A11D6C007974A2 /* AudioPlayTableViewController.xib */; };
 		D747DEE92314C8B200117ECD /* ShowDetailAbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D747DEE82314C8B200117ECD /* ShowDetailAbumViewController.swift */; };
@@ -88,6 +93,10 @@
 		C48F05B61B40D6CEF33E35BE /* Pods_SwiftTestDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftTestDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7018C232313DFEF0042D542 /* OZOneAbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OZOneAbumViewController.swift; sourceTree = "<group>"; };
 		D7018C252313E0B70042D542 /* OzoneImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OzoneImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		D70E7800231DFF9100230DEF /* OZoneNetworkConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OZoneNetworkConfig.swift; sourceTree = "<group>"; };
+		D70E7802231E00BC00230DEF /* OzoneTestAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OzoneTestAddress.swift; sourceTree = "<group>"; };
+		D70E7804231E08C300230DEF /* OzoneConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OzoneConversion.swift; sourceTree = "<group>"; };
+		D70E7806231E08E100230DEF /* ListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModel.swift; sourceTree = "<group>"; };
 		D70F1334230FEC0900C4F3BF /* OZoneSouceRuter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OZoneSouceRuter.swift; sourceTree = "<group>"; };
 		D70F1339230FED3F00C4F3BF /* image_picker_send_light@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_picker_send_light@2x.png"; sourceTree = "<group>"; };
 		D70F133A230FED3F00C4F3BF /* image_picker_ensure@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_picker_ensure@2x.png"; sourceTree = "<group>"; };
@@ -98,6 +107,7 @@
 		D70F1345230FF61900C4F3BF /* AlbumDirectoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDirectoryViewController.swift; sourceTree = "<group>"; };
 		D70F1346230FF61900C4F3BF /* AlbumDirectoryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlbumDirectoryViewController.xib; sourceTree = "<group>"; };
 		D711397122A916D100C8640E /* PlayerMangerDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerMangerDefault.swift; sourceTree = "<group>"; };
+		D7167523231D2C1C00692347 /* NetWorkModelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkModelViewController.swift; sourceTree = "<group>"; };
 		D73AA56F22A11D6C007974A2 /* AudioPlayTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayTableViewController.swift; sourceTree = "<group>"; };
 		D73AA57022A11D6C007974A2 /* AudioPlayTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AudioPlayTableViewController.xib; sourceTree = "<group>"; };
 		D747DEE82314C8B200117ECD /* ShowDetailAbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDetailAbumViewController.swift; sourceTree = "<group>"; };
@@ -228,6 +238,34 @@
 			path = OZAlertViewController;
 			sourceTree = "<group>";
 		};
+		D7167522231D2BF300692347 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				D7167526231D2C2C00692347 /* Others */,
+				D7167525231D2C2000692347 /* NetWork */,
+				D7167523231D2C1C00692347 /* NetWorkModelViewController.swift */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		D7167525231D2C2000692347 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		D7167526231D2C2C00692347 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				D70E7800231DFF9100230DEF /* OZoneNetworkConfig.swift */,
+				D70E7802231E00BC00230DEF /* OzoneTestAddress.swift */,
+				D70E7804231E08C300230DEF /* OzoneConversion.swift */,
+				D70E7806231E08E100230DEF /* ListModel.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
 		D73AA56C22A11CF9007974A2 /* AudioPlayer */ = {
 			isa = PBXGroup;
 			children = (
@@ -263,6 +301,7 @@
 		D74BFCFD22964391001CB749 /* SwiftTestDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D7167522231D2BF300692347 /* NetWork */,
 				D7167521231D2ADD00692347 /* OZAlertViewController */,
 				D70F1333230FEBA800C4F3BF /* PhotoAlbum */,
 				D74BFCFE22964391001CB749 /* AppDelegate.swift */,
@@ -549,12 +588,16 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SwiftTestDemo/Pods-SwiftTestDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -595,12 +638,15 @@
 				D74BFD692296524E001CB749 /* RealtimeAnalyzer.swift in Sources */,
 				D70F1335230FEC0900C4F3BF /* OZoneSouceRuter.swift in Sources */,
 				D7018C242313DFEF0042D542 /* OZOneAbumViewController.swift in Sources */,
+				D70E7803231E00BC00230DEF /* OzoneTestAddress.swift in Sources */,
 				D7838B8C2317C26200E5FEB8 /* OzoneItem.swift in Sources */,
 				D74BFD4C22964D90001CB749 /* ThanosGauntlet.swift in Sources */,
 				D70F1347230FF61900C4F3BF /* AlbumDirectoryViewController.swift in Sources */,
 				D74BFD4B22964D90001CB749 /* AnimatableSpriteLayer.swift in Sources */,
 				D748D958229D2E17003C2885 /* RandowObject.swift in Sources */,
 				D747DEE92314C8B200117ECD /* ShowDetailAbumViewController.swift in Sources */,
+				D70E7807231E08E100230DEF /* ListModel.swift in Sources */,
+				D7167524231D2C1C00692347 /* NetWorkModelViewController.swift in Sources */,
 				D74BFD6A2296524E001CB749 /* SpectrumView.swift in Sources */,
 				D74BFD4D22964D90001CB749 /* DustEffectView.swift in Sources */,
 				D73AA57122A11D6C007974A2 /* AudioPlayTableViewController.swift in Sources */,
@@ -610,7 +656,9 @@
 				D74BFCFF22964391001CB749 /* AppDelegate.swift in Sources */,
 				D7018C262313E0B70042D542 /* OzoneImageCollectionViewCell.swift in Sources */,
 				D74BFD63229651B6001CB749 /* AudioSpectrumViewController.swift in Sources */,
+				D70E7805231E08C300230DEF /* OzoneConversion.swift in Sources */,
 				D74BFD6C2296524E001CB749 /* AudioSpectrumPlayer.swift in Sources */,
+				D70E7801231DFF9100230DEF /* OZoneNetworkConfig.swift in Sources */,
 				D74BFD33229649BF001CB749 /* FirstItemViewController.swift in Sources */,
 				D74BFD4F22964DAB001CB749 /* ThanosSnapViewController.swift in Sources */,
 				D74BFD6B2296524E001CB749 /* TrackCell.swift in Sources */,
