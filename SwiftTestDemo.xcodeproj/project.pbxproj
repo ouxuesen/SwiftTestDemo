@@ -26,7 +26,16 @@
 		D70F1347230FF61900C4F3BF /* AlbumDirectoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70F1345230FF61900C4F3BF /* AlbumDirectoryViewController.swift */; };
 		D70F1348230FF61900C4F3BF /* AlbumDirectoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D70F1346230FF61900C4F3BF /* AlbumDirectoryViewController.xib */; };
 		D711397222A916D100C8640E /* PlayerMangerDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = D711397122A916D100C8640E /* PlayerMangerDefault.swift */; };
+		D715C4F2231E79B400DDFC31 /* ic_booked_evening_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D715C4EE231E79B400DDFC31 /* ic_booked_evening_normal@3x.png */; };
+		D715C4F3231E79B400DDFC31 /* ic_booked_evening_select@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D715C4EF231E79B400DDFC31 /* ic_booked_evening_select@3x.png */; };
+		D715C4F4231E79B400DDFC31 /* ic_booked_afternoon_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D715C4F0231E79B400DDFC31 /* ic_booked_afternoon_normal@3x.png */; };
+		D715C4F5231E79B400DDFC31 /* ic_booked_afternoon_select@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D715C4F1231E79B400DDFC31 /* ic_booked_afternoon_select@3x.png */; };
 		D7167524231D2C1C00692347 /* NetWorkModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7167523231D2C1C00692347 /* NetWorkModelViewController.swift */; };
+		D72A88CD231E4BE700D28C45 /* TimeSelectHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72A88CC231E4BE700D28C45 /* TimeSelectHelper.swift */; };
+		D72A88CF231E4C0400D28C45 /* TimeDateSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72A88CE231E4C0400D28C45 /* TimeDateSource.swift */; };
+		D72A88D1231E4C2000D28C45 /* MainSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72A88D0231E4C2000D28C45 /* MainSelectViewController.swift */; };
+		D72A88D3231E4C4400D28C45 /* TopCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72A88D2231E4C4400D28C45 /* TopCollectionViewCell.swift */; };
+		D72A88D5231E4C9300D28C45 /* BootomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72A88D4231E4C9300D28C45 /* BootomCollectionViewCell.swift */; };
 		D73AA57122A11D6C007974A2 /* AudioPlayTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73AA56F22A11D6C007974A2 /* AudioPlayTableViewController.swift */; };
 		D73AA57222A11D6C007974A2 /* AudioPlayTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D73AA57022A11D6C007974A2 /* AudioPlayTableViewController.xib */; };
 		D747DEE92314C8B200117ECD /* ShowDetailAbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D747DEE82314C8B200117ECD /* ShowDetailAbumViewController.swift */; };
@@ -107,7 +116,16 @@
 		D70F1345230FF61900C4F3BF /* AlbumDirectoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDirectoryViewController.swift; sourceTree = "<group>"; };
 		D70F1346230FF61900C4F3BF /* AlbumDirectoryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlbumDirectoryViewController.xib; sourceTree = "<group>"; };
 		D711397122A916D100C8640E /* PlayerMangerDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerMangerDefault.swift; sourceTree = "<group>"; };
+		D715C4EE231E79B400DDFC31 /* ic_booked_evening_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_booked_evening_normal@3x.png"; sourceTree = "<group>"; };
+		D715C4EF231E79B400DDFC31 /* ic_booked_evening_select@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_booked_evening_select@3x.png"; sourceTree = "<group>"; };
+		D715C4F0231E79B400DDFC31 /* ic_booked_afternoon_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_booked_afternoon_normal@3x.png"; sourceTree = "<group>"; };
+		D715C4F1231E79B400DDFC31 /* ic_booked_afternoon_select@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_booked_afternoon_select@3x.png"; sourceTree = "<group>"; };
 		D7167523231D2C1C00692347 /* NetWorkModelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkModelViewController.swift; sourceTree = "<group>"; };
+		D72A88CC231E4BE700D28C45 /* TimeSelectHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSelectHelper.swift; sourceTree = "<group>"; };
+		D72A88CE231E4C0400D28C45 /* TimeDateSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeDateSource.swift; sourceTree = "<group>"; };
+		D72A88D0231E4C2000D28C45 /* MainSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSelectViewController.swift; sourceTree = "<group>"; };
+		D72A88D2231E4C4400D28C45 /* TopCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopCollectionViewCell.swift; sourceTree = "<group>"; };
+		D72A88D4231E4C9300D28C45 /* BootomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BootomCollectionViewCell.swift; sourceTree = "<group>"; };
 		D73AA56F22A11D6C007974A2 /* AudioPlayTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayTableViewController.swift; sourceTree = "<group>"; };
 		D73AA57022A11D6C007974A2 /* AudioPlayTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AudioPlayTableViewController.xib; sourceTree = "<group>"; };
 		D747DEE82314C8B200117ECD /* ShowDetailAbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDetailAbumViewController.swift; sourceTree = "<group>"; };
@@ -208,8 +226,8 @@
 				D70F1345230FF61900C4F3BF /* AlbumDirectoryViewController.swift */,
 				D70F1346230FF61900C4F3BF /* AlbumDirectoryViewController.xib */,
 				D70F1338230FED3F00C4F3BF /* images */,
-				D7018C232313DFEF0042D542 /* OZOneAbumViewController.swift */,
 				D7018C252313E0B70042D542 /* OzoneImageCollectionViewCell.swift */,
+				D7018C232313DFEF0042D542 /* OZOneAbumViewController.swift */,
 				D7838B8B2317C26200E5FEB8 /* OzoneItem.swift */,
 				D70F1334230FEC0900C4F3BF /* OZoneSouceRuter.swift */,
 				D747DEE82314C8B200117ECD /* ShowDetailAbumViewController.swift */,
@@ -266,6 +284,22 @@
 			path = Others;
 			sourceTree = "<group>";
 		};
+		D72A88CB231E4B9600D28C45 /* TimeSelect */ = {
+			isa = PBXGroup;
+			children = (
+				D715C4F0231E79B400DDFC31 /* ic_booked_afternoon_normal@3x.png */,
+				D715C4F1231E79B400DDFC31 /* ic_booked_afternoon_select@3x.png */,
+				D715C4EE231E79B400DDFC31 /* ic_booked_evening_normal@3x.png */,
+				D715C4EF231E79B400DDFC31 /* ic_booked_evening_select@3x.png */,
+				D72A88CC231E4BE700D28C45 /* TimeSelectHelper.swift */,
+				D72A88CE231E4C0400D28C45 /* TimeDateSource.swift */,
+				D72A88D0231E4C2000D28C45 /* MainSelectViewController.swift */,
+				D72A88D2231E4C4400D28C45 /* TopCollectionViewCell.swift */,
+				D72A88D4231E4C9300D28C45 /* BootomCollectionViewCell.swift */,
+			);
+			path = TimeSelect;
+			sourceTree = "<group>";
+		};
 		D73AA56C22A11CF9007974A2 /* AudioPlayer */ = {
 			isa = PBXGroup;
 			children = (
@@ -301,6 +335,7 @@
 		D74BFCFD22964391001CB749 /* SwiftTestDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D72A88CB231E4B9600D28C45 /* TimeSelect */,
 				D7167522231D2BF300692347 /* NetWork */,
 				D7167521231D2ADD00692347 /* OZAlertViewController */,
 				D70F1333230FEBA800C4F3BF /* PhotoAlbum */,
@@ -494,17 +529,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				D70F1340230FED3F00C4F3BF /* image_picker_ensure@2x.png in Resources */,
+				D715C4F2231E79B400DDFC31 /* ic_booked_evening_normal@3x.png in Resources */,
 				D74BFD5D229650C3001CB749 /* thanos_snap_sound.mp3 in Resources */,
 				D74BFD5F229650C3001CB749 /* thanos_dust_6.mp3 in Resources */,
 				D74BFD5E229650C3001CB749 /* thanos_dust_5.mp3 in Resources */,
 				D74BFD59229650C3001CB749 /* thanos_dust_3.mp3 in Resources */,
 				D70F1341230FED3F00C4F3BF /* image_picker_preview@2x.png in Resources */,
 				D70F1343230FED3F00C4F3BF /* image_picker_send@2x.png in Resources */,
+				D715C4F3231E79B400DDFC31 /* ic_booked_evening_select@3x.png in Resources */,
 				D70F1344230FED3F00C4F3BF /* image_picker_preview_light@2x.png in Resources */,
 				D74BFD0922964392001CB749 /* LaunchScreen.storyboard in Resources */,
 				D74BFD5B229650C3001CB749 /* thanos_reverse_sound.mp3 in Resources */,
 				D74BFD0622964392001CB749 /* Assets.xcassets in Resources */,
 				D74BFD5C229650C3001CB749 /* thanos_dust_2.mp3 in Resources */,
+				D715C4F5231E79B400DDFC31 /* ic_booked_afternoon_select@3x.png in Resources */,
 				D74BFD6E22965323001CB749 /* TrackCell.xib in Resources */,
 				D70F1342230FED3F00C4F3BF /* image_picker_ensure_light@2x.png in Resources */,
 				D74BFD64229651B6001CB749 /* AudioSpectrumViewController.xib in Resources */,
@@ -513,6 +551,7 @@
 				D74BFD70229654B2001CB749 /* Audio in Resources */,
 				D70F1348230FF61900C4F3BF /* AlbumDirectoryViewController.xib in Resources */,
 				D74BFD5A229650C3001CB749 /* thanos_dust_4.mp3 in Resources */,
+				D715C4F4231E79B400DDFC31 /* ic_booked_afternoon_normal@3x.png in Resources */,
 				D73AA57222A11D6C007974A2 /* AudioPlayTableViewController.xib in Resources */,
 				D74BFD58229650C3001CB749 /* thanos_dust_1.mp3 in Resources */,
 			);
@@ -649,19 +688,24 @@
 				D7167524231D2C1C00692347 /* NetWorkModelViewController.swift in Sources */,
 				D74BFD6A2296524E001CB749 /* SpectrumView.swift in Sources */,
 				D74BFD4D22964D90001CB749 /* DustEffectView.swift in Sources */,
+				D72A88D5231E4C9300D28C45 /* BootomCollectionViewCell.swift in Sources */,
 				D73AA57122A11D6C007974A2 /* AudioPlayTableViewController.swift in Sources */,
+				D72A88D3231E4C4400D28C45 /* TopCollectionViewCell.swift in Sources */,
 				D7838B8A2317ADDB00E5FEB8 /* ShowDetailCollectionViewCell.swift in Sources */,
 				D74BFD35229649D4001CB749 /* SecondItemTableViewController.swift in Sources */,
 				D74BFD0122964391001CB749 /* ViewController.swift in Sources */,
+				D72A88D1231E4C2000D28C45 /* MainSelectViewController.swift in Sources */,
 				D74BFCFF22964391001CB749 /* AppDelegate.swift in Sources */,
 				D7018C262313E0B70042D542 /* OzoneImageCollectionViewCell.swift in Sources */,
 				D74BFD63229651B6001CB749 /* AudioSpectrumViewController.swift in Sources */,
+				D72A88CD231E4BE700D28C45 /* TimeSelectHelper.swift in Sources */,
 				D70E7805231E08C300230DEF /* OzoneConversion.swift in Sources */,
 				D74BFD6C2296524E001CB749 /* AudioSpectrumPlayer.swift in Sources */,
 				D70E7801231DFF9100230DEF /* OZoneNetworkConfig.swift in Sources */,
 				D74BFD33229649BF001CB749 /* FirstItemViewController.swift in Sources */,
 				D74BFD4F22964DAB001CB749 /* ThanosSnapViewController.swift in Sources */,
 				D74BFD6B2296524E001CB749 /* TrackCell.swift in Sources */,
+				D72A88CF231E4C0400D28C45 /* TimeDateSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -840,7 +884,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S7MMK4N5Y7;
 				INFOPLIST_FILE = SwiftTestDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -860,7 +904,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S7MMK4N5Y7;
 				INFOPLIST_FILE = SwiftTestDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
