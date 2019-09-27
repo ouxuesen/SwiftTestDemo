@@ -10,7 +10,7 @@ import UIKit
 import Photos
 
 class FirstItemViewController: UITableViewController {
-    var titleS = ["灭霸动画","音乐频谱","文件管理","相册管理","网络转模型","时间选择"]
+    var titleS = ["灭霸动画","音乐频谱","文件管理","相册管理","网络转模型","时间选择","RxSwiftTes","瀑布流"]
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.tableFooterView = UIView.init()
@@ -63,8 +63,7 @@ class FirstItemViewController: UITableViewController {
                 }
             }
         }else if titleS[indexPath.row] == "网络转模型"{
-            
-            
+           TestHandyJson().testNetworkChage()
         }else if titleS[indexPath.row] == "时间选择"
         {
             let vc = MainSelectViewController()
@@ -74,7 +73,16 @@ class FirstItemViewController: UITableViewController {
             }
             vc.hidesBottomBarWhenPushed = true
             navigationController?.pushViewController(vc, animated: true)
+        }else if titleS[indexPath.row] == "RxSwiftTes"{
+            let vc = RxSwiftTestViewController()
+            vc.hidesBottomBarWhenPushed = true
+            navigationController?.pushViewController(vc, animated: true)
+        }else if titleS[indexPath.row] == "瀑布流"{
+            let vc = MyViewController()
+            vc.hidesBottomBarWhenPushed = true
+            navigationController?.pushViewController(vc, animated: true)
         }
+        
         
     
     }

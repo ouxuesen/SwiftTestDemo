@@ -30,5 +30,14 @@ class SwiftTestDemoTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
-
+//    func testNetwork() {
+//        _ = OZoneNetworkWork().getRequset({ (json, result) in
+//            print(json!)
+//        })
+//       
+//    }
+    func testChage() {
+        TestHandyJson().testNetworkChage()
+    }
+    
 }

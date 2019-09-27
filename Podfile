@@ -7,6 +7,7 @@ target 'SwiftTestDemo' do
     pod 'SnapKit'
     pod 'Alamofire'
     pod 'HandyJSON'
+    pod 'RxSwift'
   # Pods for SwiftTestDemo
 
   target 'SwiftTestDemoTests' do
@@ -14,10 +15,4 @@ target 'SwiftTestDemo' do
     # Pods for testing
     
   end
-
-  target 'SwiftTestDemoUITests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
 end
