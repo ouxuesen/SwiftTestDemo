@@ -30,6 +30,6 @@ xcuserdata/
 
 
 #
-#Pods/
+Pods/
 SwiftTestDemo.xcworkspace/
 Podfile.lock
