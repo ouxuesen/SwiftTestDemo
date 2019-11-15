@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -38,6 +38,7 @@
 		D71621BB233B6D9B00D4C536 /* MyFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71621B8233B6D9B00D4C536 /* MyFlowLayout.swift */; };
 		D71621BC233B6D9B00D4C536 /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71621B9233B6D9B00D4C536 /* MyView.swift */; };
 		D7167524231D2C1C00692347 /* NetWorkModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7167523231D2C1C00692347 /* NetWorkModelViewController.swift */; };
+		D718EE852340B242002FFD7B /* ThenTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D718EE842340B242002FFD7B /* ThenTestViewController.swift */; };
 		D72A88CD231E4BE700D28C45 /* TimeSelectHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72A88CC231E4BE700D28C45 /* TimeSelectHelper.swift */; };
 		D72A88CF231E4C0400D28C45 /* TimeDateSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72A88CE231E4C0400D28C45 /* TimeDateSource.swift */; };
 		D72A88D1231E4C2000D28C45 /* MainSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72A88D0231E4C2000D28C45 /* MainSelectViewController.swift */; };
@@ -131,6 +132,7 @@
 		D71621B8233B6D9B00D4C536 /* MyFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyFlowLayout.swift; sourceTree = "<group>"; };
 		D71621B9233B6D9B00D4C536 /* MyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
 		D7167523231D2C1C00692347 /* NetWorkModelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkModelViewController.swift; sourceTree = "<group>"; };
+		D718EE842340B242002FFD7B /* ThenTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThenTestViewController.swift; sourceTree = "<group>"; };
 		D72A88CC231E4BE700D28C45 /* TimeSelectHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSelectHelper.swift; sourceTree = "<group>"; };
 		D72A88CE231E4C0400D28C45 /* TimeDateSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeDateSource.swift; sourceTree = "<group>"; };
 		D72A88D0231E4C2000D28C45 /* MainSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSelectViewController.swift; sourceTree = "<group>"; };
@@ -310,6 +312,14 @@
 			path = Others;
 			sourceTree = "<group>";
 		};
+		D718EE832340B224002FFD7B /* ThenTest */ = {
+			isa = PBXGroup;
+			children = (
+				D718EE842340B242002FFD7B /* ThenTestViewController.swift */,
+			);
+			path = ThenTest;
+			sourceTree = "<group>";
+		};
 		D72A88CB231E4B9600D28C45 /* TimeSelect */ = {
 			isa = PBXGroup;
 			children = (
@@ -367,6 +377,7 @@
 		D74BFCFD22964391001CB749 /* SwiftTestDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D718EE832340B224002FFD7B /* ThenTest */,
 				D71621B6233B6D7A00D4C536 /* 瀑布流 */,
 				D73CE5BB23321FD3006A8CAF /* RxSwift */,
 				D7072D2F231F95A90060D45B /* runtime */,
@@ -375,11 +386,11 @@
 				D7167521231D2ADD00692347 /* OZAlertViewController */,
 				D70F1333230FEBA800C4F3BF /* PhotoAlbum */,
 				D74BFCFE22964391001CB749 /* AppDelegate.swift */,
+				D748D957229D2E17003C2885 /* RandowObject.swift */,
 				D74BFD0022964391001CB749 /* ViewController.swift */,
 				D74BFD0222964391001CB749 /* Main.storyboard */,
 				D74BFD32229649BF001CB749 /* FirstItemViewController.swift */,
 				D74BFD34229649D4001CB749 /* SecondItemTableViewController.swift */,
-				D748D957229D2E17003C2885 /* RandowObject.swift */,
 				D73AA56C22A11CF9007974A2 /* AudioPlayer */,
 				D74BFD6022965183001CB749 /* AudioSpectrum */,
 				D74BFD3622964D77001CB749 /* ThanosSnap */,
@@ -675,6 +686,7 @@
 				D72A88CD231E4BE700D28C45 /* TimeSelectHelper.swift in Sources */,
 				D70E7805231E08C300230DEF /* OzoneConversion.swift in Sources */,
 				D715AFF72320AC1D003E97DC /* OzoneNetworkError.swift in Sources */,
+				D718EE852340B242002FFD7B /* ThenTestViewController.swift in Sources */,
 				D74BFD6C2296524E001CB749 /* AudioSpectrumPlayer.swift in Sources */,
 				D70E7801231DFF9100230DEF /* OZoneNetworkConfig.swift in Sources */,
 				D74BFD33229649BF001CB749 /* FirstItemViewController.swift in Sources */,

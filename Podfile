@@ -8,6 +8,7 @@ target 'SwiftTestDemo' do
     pod 'Alamofire'
     pod 'HandyJSON'
     pod 'RxSwift'
+    pod 'Then'
   # Pods for SwiftTestDemo
 
   target 'SwiftTestDemoTests' do
